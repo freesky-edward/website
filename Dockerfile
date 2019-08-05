@@ -4,12 +4,7 @@ FROM alpine:latest
 MAINTAINER Edward Lee <freesky.edward@gmail.com>
 
 RUN apk add --no-cache \
-    curl \
-    git \
-    openssh-client \
-    rsync \
-    build-base \
-    libc6-compat
+    curl 
 
 ENV HUGO_VERSION=0.56.3
 
