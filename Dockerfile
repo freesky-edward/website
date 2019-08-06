@@ -28,4 +28,4 @@ WORKDIR /src
 
 EXPOSE 1313
 
-ENTRYPOINT ["hugo", "server", "--bind","0.0.0.0","-p","1313","--baseURL","http://0.0.0.0:1313/"]
+ENTRYPOINT ["hugo", "server", "--bind","0.0.0.0","-p","1313","--baseURL","http://49.4.95.151/"]
