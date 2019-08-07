@@ -26,6 +26,6 @@ RUN cd /src/ && /usr/local/bin/hugo
 
 WORKDIR /src
 
-EXPOSE 1313
+EXPOSE 80
 
 # ENTRYPOINT ["hugo", "server", "--bind","0.0.0.0","-p","1313","--baseURL","http://49.4.95.151/"]
